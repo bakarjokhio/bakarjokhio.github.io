@@ -10,6 +10,7 @@ apps.forEach(app => {
   const title = document.createElement("div");
   title.className = "card-title";
   title.innerText = app.name;
+  title.style.color = app.textColor || "#000000";  // Fallback to black if not defined
 
   card.appendChild(img);
   card.appendChild(title);
@@ -21,6 +22,8 @@ apps.forEach(app => {
       card.style.transform = "";
     }, 150);
   };
+
+  card.style.background = app.gradient;
 
   container.appendChild(card);
 });

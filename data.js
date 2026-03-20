@@ -1,22 +1,16 @@
 const apps = [
   {
-    name: "Eid Outfit Roast 😂🔥",
+    name: "Eid Outfit Roast",
     link: "https://bakarjokhio.github.io/eid-roast/",
-    image: "https://via.placeholder.com/300x200?text=Eid+Roast"
-  },
-  {
-    name: "Eidi Calculator 💸",
-    link: "#",
-    image: ""
-  },
-  {
-    name: "Chand Raat Simulator 🌙",
-    link: "#",
-    image: ""
+    image: "assets/img/jg.png",
+    gradient: "linear-gradient(135deg, #ff416c, #ff4b2b)",
+    textColor: "#ffffff"  // White text for contrast
   },
   {
     name: "More Coming Soon 👀",
     link: "#",
-    image: ""
+    image: "assets/img/ja.png",
+    gradient: "linear-gradient(135deg, #36d1dc, #5b86e5)",
+    textColor: "#ffffff"
   }
 ];
